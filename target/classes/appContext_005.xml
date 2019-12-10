@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="
+      http://www.springframework.org/schema/beans 
+      http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="formationDao" class="fr.cormier.formation.spring.dao.FormationDaoImpl"></bean>
+    <bean id="formationService" class="fr.cormier.formation.spring.service.FormationServiceImpl">
+       <property name="formationDao" ref="formationDao"></property>
+       <property name="etablissement" value="CORMIER"></property>
+    </bean>
+
+    <bean id="personne" class="fr.cormier.formation.spring._005.personne">
+        <property name="Name" value="Guillaume"></property>
+        <property name="Nom" value="Cormier"></property>
+        <property name="age" value="37"></property>
+    </bean>
+    <bean  class="fr.cormier.formation.spring._005.personne">
+        <property name="Name" value="cecile"></property>
+        <property name="Nom" value="Cormier"></property>
+        <property name="age" value="38"></property>
+    </bean>
+    <bean  class="fr.cormier.formation.spring._005.personne">
+        <property name="Name" value="marie"></property>
+        <property name="Nom" value="Cormier"></property>
+        <property name="age" value="7"></property>
+    </bean>
+</beans>
