@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="
+      http://www.springframework.org/schema/beans 
+      http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <beans profile="prod">
+        <bean id="log" class="fr.cormier.formation.spring._015.ConsoleLogger">
+            <property name="Text" value="CA MARCHE"></property>
+        </bean>
+    </beans>
+
+    <beans profile="dev">
+        <bean id="log" class="fr.cormier.formation.spring._015.DatabaseLogger"></bean>
+    </beans>
+
+
+</beans>

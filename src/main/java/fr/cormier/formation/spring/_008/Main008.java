@@ -1,5 +1,6 @@
 package fr.cormier.formation.spring._008;
 
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -9,6 +10,9 @@ public class Main008 {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("appContext_008.xml");
         MaClasseSingleton singleton = applicationContext.getBean(MaClasseSingleton.class);
         singleton.QuiSuije();
+
+        BeanACreer beanACreer = applicationContext.getBean(BeanACreer.class);
+        beanACreer.quiSuisJe();
 
     }
 }

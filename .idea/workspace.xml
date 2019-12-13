@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e34d5754-1d86-47b6-9676-d396e86e3159" name="Default Changelist" comment="" />
+    <list default="true" id="e34d5754-1d86-47b6-9676-d396e86e3159" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/cormier/formation/spring/_008/BeanACreer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/cormier/formation/spring/_008/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/cormier/formation/spring/_011/Main011.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/cormier/formation/spring/_012/Main012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/cormier/formation/spring/_015/ConsoleLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/cormier/formation/spring/_015/DatabaseLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/cormier/formation/spring/_015/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/cormier/formation/spring/_015/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/cormier/formation/spring/_015/Main015.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/appContect_011.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/appContext_012.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/appContext_015.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/cormier/formation/spring/_008/Main008.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/cormier/formation/spring/_008/Main008.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/appContext_008.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/appContext_008.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/appContext_008.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/appContext_008.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/cormier/formation/spring/_008/Main008.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/cormier/formation/spring/_008/Main008.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,20 +31,29 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="XSLT Stylesheet" />
-        <option value="Class" />
         <option value="Singleton Class" />
         <option value="Maven XML Bean" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UhjwVra19WsSHKTd71g6t0f1nR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Spring\exercice-spring-ioc\src\main\java\fr\cormier\formation\spring" />
+      <recent name="D:\Spring\exercice-spring-ioc" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="fr.cormier.formation.spring" />
       <recent name="" />
@@ -33,9 +61,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Spring\exercice-spring-ioc\src\main\resources" />
       <recent name="D:\Spring\exercice-spring-ioc\src\main\java\fr\cormier\formation\spring" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Spring\exercice-spring-ioc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -50,33 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main008">
-    <configuration name="Main001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.cormier.formation.spring._001.Main001" />
-      <module name="exercice-spring-ioc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.cormier.formation.spring._001.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.cormier.formation.spring._002.Main002" />
-      <module name="exercice-spring-ioc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.cormier.formation.spring._002.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main015">
     <configuration name="Main003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.cormier.formation.spring._003.Main003" />
       <module name="exercice-spring-ioc" />
@@ -116,13 +115,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.cormier.formation.spring._012.Main012" />
+      <module name="exercice-spring-ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.cormier.formation.spring._012.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main015" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.cormier.formation.spring._015.Main015" />
+      <module name="exercice-spring-ioc" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=prod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.cormier.formation.spring._015.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main003" />
+      <item itemvalue="Application.Main005" />
+      <item itemvalue="Application.Main008" />
+      <item itemvalue="Application.Main012" />
+      <item itemvalue="Application.Main015" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main015" />
+        <item itemvalue="Application.Main012" />
         <item itemvalue="Application.Main008" />
         <item itemvalue="Application.Main005" />
         <item itemvalue="Application.Main003" />
-        <item itemvalue="Application.Main001" />
-        <item itemvalue="Application.Main002" />
       </list>
     </recent_temporary>
   </component>
@@ -141,5 +174,18 @@
       <updated>1575815959699</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

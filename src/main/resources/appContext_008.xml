@@ -7,4 +7,9 @@
 
     <bean id="singleton" class="fr.cormier.formation.spring._008.MaClasseSingleton" factory-method="getInstance"></bean>
 
+
+
+    <bean id="factory" class="fr.cormier.formation.spring._008.Factory"></bean>
+
+    <bean id="unBean" factory-bean="factory" factory-method="create"></bean>
 </beans>

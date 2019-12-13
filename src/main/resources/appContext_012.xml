@@ -5,11 +5,6 @@
       http://www.springframework.org/schema/beans 
       http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="singleton" class="fr.cormier.formation.spring._008.MaClasseSingleton" factory-method="getInstance"></bean>
+    <bean id="formationDao" class="fr.cormier.formation.spring.dao.FormationDaoImpl" scope="prototype"></bean>
 
-
-
-    <bean id="factory" class="fr.cormier.formation.spring._008.Factory"></bean>
-
-    <bean id="unBean" factory-bean="factory" factory-method="create"></bean>
 </beans>
